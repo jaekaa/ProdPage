@@ -42,6 +42,8 @@ a:hover {
   z-index: 999;
 }
 
+/* Navigation */
+
 #header a, #nav-bar a {
   color:var(--gcolor);
   opacity:0.8;
@@ -58,6 +60,12 @@ a:hover {
   height:0;
   width:0;
 }
+
+.nav-link.active {
+  text-shadow: 0 0 10px #eee, 0 0 20px #eee, 0 0 30px #eee, 0 0 40px #6a9cd0, 0 0 70px #6a9cd0, 0 0 80px #6a9cd0, 0 0 100px #6a9cd0, 0 0 150px #6a9cd0;
+}
+
+/* Product */
 
 .product {
   padding:2rem 1rem;
